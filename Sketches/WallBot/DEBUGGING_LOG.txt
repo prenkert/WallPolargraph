@@ -1,0 +1,56 @@
+Press Any Key to Enter USB Serial Mode: 10
+
+Entering USB Serial Mode
+
+G00 L300 R200 Z0 F100;End of Line Reached
+
+Processing Command
+
+Set speed to: 100
+
+lineDirect To: 300, 200, 0
+
+Moved Servo to: 0
+
+Move Complete, Current Position: 300,200
+
+
+G00 L300 R200 Z0 F100
+;End of Line Reached
+
+Processing Command
+
+Invalid Command
+
+
+G00 L300 R200 Z0 F100;End of Line Reached
+
+Processing Command
+
+Invalid Command
+
+Press Any Key to Enter USB Serial Mode: 10
+
+Entering USB Serial Mode
+
+G00 L300 R200 Z0 F100;End of Line Reached
+
+Processing Command
+
+Set speed to: 100
+
+lineDirect To: 300, 200, 0
+
+Moved Servo to: 0
+
+Move Complete, Current Position: 300,200
+
+
+G00 L500 R600 Z1 F200;End of Line Reached
+
+Processing Command
+
+Invalid Command
+
+//
+

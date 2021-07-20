@@ -1,0 +1,38 @@
+One of the components requires updating. This may cause the mass properties calculation to be out of date
+
+Mass properties of MasterAssem
+     Configuration: Default
+     Coordinate system: -- default --
+
+Mass = 520.60 grams
+
+Volume = 342706.15 cubic millimeters
+
+Surface area = 190098.76  square millimeters
+
+Center of mass: ( millimeters )
+	X = -0.61
+	Y = -12.14
+	Z = -12.88
+
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
+	 Ix = ( 1.00,  0.00,  0.01)   	Px = 694265.48
+	 Iy = ( 0.00,  0.95,  0.31)   	Py = 1350508.68
+	 Iz = (-0.01, -0.31,  0.95)   	Pz = 1615592.56
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system.
+	Lxx = 694303.40	Lxy = -1967.77	Lxz = 5572.10
+	Lyx = -1967.77	Lyy = 1375270.86	Lyz = 77136.01
+	Lzx = 5572.10	Lzy = 77136.01	Lzz = 1590792.45
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the output coordinate system.
+	Ixx = 857398.73	Ixy = 1898.76	Ixz = 9674.86
+	Iyx = 1898.76	Iyy = 1461843.76	Iyz = 158540.49
+	Izx = 9674.86	Izy = 158540.49	Izz = 1667704.63
+
+One or more components have overridden mass properties:
+	Sparkfun_Breadboard_12002<1><Default>@BreadboardAssem<1><Default>
+	Sparkfun_Teensy35_14056<1><Default>@BreadboardAssem<1><Default>

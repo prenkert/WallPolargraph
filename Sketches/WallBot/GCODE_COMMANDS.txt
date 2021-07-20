@@ -1,0 +1,15 @@
+Every (number) is assumed to be an int; all positions absolute
+Anything in [brackets] is optional
+G and M commands cannot be combined in a single instruction.
+Finish commands with ;
+Exit Charater = 'E' | Process finished whenever exit character encountered
+
+G00 [L(number)] [R(number)] [Z(number)] [F(number)]; | Direct Linear Move: Move (X,Y) at pen position Z at speed F
+%G01 [L(number)] [R(number)] [Z(number)] [F(number)]; | Interpolated Linear Move: Move (X,Y) at pen position Z at speed F	
+
+
+M00; | Go to Home Position and disable motors
+M01 [L(number)] [R(number)] [Z(number)]; | Set trim values for home position. 80 < Z value < 175, Z value sets new writing position.
+M02; | Show current position
+M03 [L(number)] [R(number)]; | Set current position
+
